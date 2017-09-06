@@ -1,0 +1,28 @@
+html {
+	color: darkcyan;
+	font-family: 'Droid Sans', sans-serif;
+	background-color: #f7f0e3;
+	line-height: 18px;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+h1 {
+	color: darkcyan;
+	font-family:'Monoton', cursive;
+	text-shadow: 4px 4px 4px #aaa;
+	font-size: 40px;
+}
+h2 {
+	margin-top: 6%;
+}
+strong {
+	color: darkorange;
+	font-size: 14px;
+}
+#movie-subtitle {
+	font-style: bold;
+	font-size: 25px;
+}
+.script {
+	font-size: 13px;
+}
