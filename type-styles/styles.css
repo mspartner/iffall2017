@@ -1,0 +1,74 @@
+html,
+body {
+	font-family:"Raleway", sans-serif;
+	margin-left: 1%;
+	margin-bottom: 5%;
+}
+h1 {
+	font-family:"Raleway", sans-serif;
+	font-size: 60px;
+	font-weight: 900;
+}
+h2 {
+	font-size: 40px;
+	font-weight: 700;
+	color: grey;
+	line-height: .5em;
+}
+h5 {
+	font-size: 20px;
+	font-weight: 400;
+}
+.sub-header{
+	font-size: 14px;
+	font-weight: 400;
+}
+.body {
+	font-size: 20px;
+	line-height: 5px;
+}
+.font-weight .normal {
+	font-weight: 400;
+}
+.font-weight .bold {
+	font-weight: 700;
+}
+.font-style .normal {
+	font-style: normal;
+}
+.font-style .italic {
+	font-style: italic;
+}
+.letter-spacing .normal {
+	letter-spacing: normal;
+}
+.letter-spacing .em1 {
+	letter-spacing: .3em;
+}
+.letter-spacing .em2 {
+	letter-spacing: -.06em;
+}
+.text-decoration .none {
+	text-decoration: none;
+}
+.text-decoration .underline {
+	text-decoration: underline;
+}
+.text-decoration .line-through {
+	text-decoration: line-through;
+}
+.text-decoration .overline {
+	text-decoration: overline;
+}
+.text-transform .none {
+	text-transform: none;
+}
+.text-transform .uppercase {
+	text-transform: uppercase;
+}
+.text-transform .lowercase {
+	text-transform: lowercase;
+}
+.text-transform .capitalize {
+	text-transform: capitalize;
+}
