@@ -1,0 +1,156 @@
+body {
+	background-image: url(https://wudesign.me/resources/html_tracing/images/bg.png);
+	box-sizing: border-box;
+	background-position: center top;
+	height: 2315px;
+	font-family: Archivo Narrow, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	display: inline-block;
+	font-size: 5rem;
+	font-weight: 700;
+	margin-top: 155px;
+	margin-bottom: 0px;
+	margin-left: 3px;
+	color: #ffffff;
+}
+h2 {
+	font-size: 40px;
+	font-weight: 700;
+	display: block;
+	margin-top: 0px;
+	color: #ffffff;
+}
+h3 {
+	display: inline-block;
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: 2px;
+	color: #ffffff;
+}
+.content2 {
+	width: 960px;
+	margin: auto;
+}
+.container-1 {
+	text-align: center;
+	display: block;
+	background-image: url(https://media.giphy.com/media/3o85gd3noLuSkE4Lkc/giphy.gif);
+	height: 480px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.container-2{
+	padding-top: 42px;
+	text-align: center;
+	background-color: #e9e364;
+	height: 604px;
+}
+.container-2 p {
+	text-align: left;
+	width: 960px;
+	font-size: 18.5px;
+	font-weight: 500;
+	letter-spacing: -0.33px;
+	line-height: 1.34rem;
+	margin: 16px 0;
+	color: #ffffff;
+}
+.container-2 img {
+	float: right;
+	margin-left: 41px;
+	margin-bottom: 20px;
+}
+.content3 {
+	width: 960px;
+	margin: auto;
+}
+.container-3 {
+	padding-top: 42px;
+	text-align: center;
+	margin: auto;
+	background-color: #34a587;
+	height: 637px;
+}
+.left {
+	display: block;
+	text-align: left;
+	float: left;
+	width: 450px;
+}
+.right {
+	display: block;
+	margin-left: 482px;
+	text-align: left;
+	width: 450px;
+}
+.photo1 {
+	float: left;
+	display: block;
+	margin-bottom: 24px;
+	height: 150px;
+	font-size: 18.5px;
+	letter-spacing: -0.37px;
+	line-height: 1.34rem;
+	font-weight: 500;
+}
+.image {
+	float: left;
+	display: block;
+	height: 150px;
+	margin-right: 13px;
+}
+h4{
+	font-size: 22px;
+	color: #ffffff;
+	font-weight: 700;
+	display: inline-block;
+	margin-top: 1px;
+	margin-bottom: auto;
+	letter-spacing: -0.33px;
+}
+.phototext {
+	text-align: left;
+	margin-top: 0px;
+	color: #ffffff;
+}
+.phototext p{
+	margin-top: 7px;
+}
+.container-4 p {
+	font-size: 27.5px;
+	text-align: center;
+	margin-left: 313px;
+	width: 720px;
+	letter-spacing: -0.16px;
+	line-height: 31px;
+	color: #ffffff;
+}
+.container-4 {
+	padding-top: 42px;
+	text-align: center;
+	margin: auto;
+	background-color: #e9e364;
+	height: 400px;
+}
+.container-5 p{
+	margin-left: 193px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 18px;
+	color: #ffffff;
+}
+.buttons {
+	margin-left: 1062px;
+	margin-top: -26px;
+	display: inline;
+	position: absolute;
+	color: #ffffff;
+}
+.container-5{
+	background-color: #34a587;
+	height: 60px;
+	padding-top: 10px;
+}
