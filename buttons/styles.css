@@ -1,0 +1,513 @@
+
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#main_content {
+	margin: 40px;
+}
+
+h1 {
+ 	font-size: 30px;
+ 	margin-bottom: 40px;
+}
+
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+
+a#btn_spotify {
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	background-color: #2ebd59;
+	border: 2px solid #2ebd59;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_spotify:hover {
+	background-color: #fff;
+	border: 2px solid #000;
+	color: #000;
+}
+
+
+a#btn_twitter {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 105px;
+	padding: 10px 30px 0 30px;
+	background-color: #56cdf1;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_twitter:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+	background: #2ebfec; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+}
+
+
+a#btn_amazon {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	background-color: #232f3e;
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+}
+
+a#btn_amazon:hover {
+	background-color: #fc9a18;
+}
+
+
+a#btn_indiegogo {
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: #fff;
+	color: #eb1478;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: -2px;
+}
+
+a#btn_indiegogo:hover {
+	color: #fff;
+	background-color: #eb1478;
+}
+a#btn_apple {
+  display: block;
+  margin: auto;
+  margin-top: 80px;
+  color: gold;
+}
+a#btn_apple:hover{
+  color: silver;
+}
+a#btn_ibm{
+  display: block;
+  margin-top: 80px;
+  color: black;
+}
+
+a#btn_ibm:hover{
+	background-image: url(https://www.channelweb.co.uk/w-images/f13f62ff-8cef-4d61-90b5-254d9991cf76/0/pcat-100x100.jpg?1309860259);
+	max-width: 100px;
+	max-height: 100px;
+	margin-top: 80px;
+	margin-left: 80px;
+	color: #ffffff;
+}
+
+a#btnmk {
+	display: block;
+	margin: auto;
+	margin-top: 80px;
+	color: purple;
+}
+
+#btnmk:hover{
+	-webkit-filter: grayscale (100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+}
+
+#ideoimg{
+	max-width: 100px;
+	max-height: 100px;
+	margin-top: 80px;
+	filter: grayscale(100%);
+}
+
+#ideoimg:hover{
+	filter: none;
+}
+
+#btnsardella{
+	display: inline-block;
+	margin: auto;
+	font-family: 'Bungee Shade', cursive;
+	font-size: 25px;
+	margin-top: 110px;
+	background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+#btnsardella:hover{
+	background-image: none;
+	background-color: #7aadff;
+}
+
+#btncraig{
+	margin: auto;
+	margin-top: 80px;
+	display: block;
+	max-width: 100px;
+	max-height: 100px;
+	color: purple;
+}
+
+#btncraig:hover{
+	color: rgba(0, 0, 0, 0);
+	background-image: url(https://www.fraudguides.com/images/home_auto.jpg);
+	max-width: 100px;
+	max-height: 100px;
+}
+
+#btnsam:hover{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 23px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#btnsam{
+	color: transparent;
+	background-image: url(https://c.slashgear.com/wp-content/uploads/2017/05/samsung_emx_concept_1-980x420.jpg);
+	background-size: cover;
+	max-width: 100px;
+	max-height: 100px;
+	box-sizing: border-box;
+	border-radius: 50%;
+	margin-top: 90px;
+	padding: 20px;
+	display: inline-block;
+}
+
+#cnimg{
+	display: block;
+	margin: auto;
+	margin-top: 80px;
+	max-width: 100px;
+	max-height: 100px;
+}
+
+#cnimg:hover{
+	filter: blur(5px);
+}
+
+#btnbs {
+	display: inline-block;
+	font-family: 'UnifrakturMaguntia', sans-serif;
+	font-size: 30px;
+	margin-top: 110px;
+	text-decoration: none;
+	padding: 8px 16px;
+	background-color: #fff;
+	color: #f4d142;
+}
+
+#btnbs:hover{
+	color: #a31043;
+	background-color: #f4d142;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+#btnofa {
+	display: inline-block;
+	margin-top: 100px;
+	font-family: 'Open+Sans', sans-serif;
+	font-weight: 800;
+	font-size: 50px;
+	text-decoration: none;
+	letter-spacing: -.8rem;
+	color: light blue;
+	width: 150px;
+	color: red;
+}
+
+#btnofa:hover {
+	background-image: url(http://radio.foxnews.com/toddstarnes/wp-content/uploads/2011/09/american-flag-2a2.jpg);
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-position: center;
+}
+
+#btnfallon {
+	display: block;
+	margin: auto;
+	margin-top: 80px;
+}
+
+#btnfallon:hover {
+	background-image: url(fallon2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#fallon:hover{
+	opacity: 0;
+}
+
+#nike {
+	max-width: 100px;
+	display: block;
+	margin-top: 100px;
+	margin-left: 80px;
+}
+
+#swag {
+	color: transparent;
+	display: inline-block;
+}
+
+#swag:hover {
+	display: block;
+	margin-top: 70px;
+	margin: auto;
+	color: black;
+	font-size: 20px;
+}
+
+#btnleaf {
+	display: block;
+	color: lightgreen;
+	margin: auto;
+	margin-top: 80px;
+}
+
+#btnleaf:hover {
+	color: green;
+}
+
+#btntesla {
+	color: #efd71f;
+	display: block;
+	margin: auto;
+	margin-top: 80px;
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+	transition: transform .8s ease-in-out;
+}
+
+#btntesla:hover {
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+#run{
+	display: block;
+	max-width: 100px;
+}
+
+#run:hover {
+	opacity: 0;
+}
+
+#btnrun {
+	display: block;
+	margin: auto;
+	margin-top: 80px;
+	max-width: 100px;
+	max-height: 100px;
+}
+
+#btnrun:hover{
+	background-image: url(https://i.pinimg.com/736x/51/6b/96/516b9662c02a07bad119dfe4d8e944bd--watercolor-splatter-watercolor-tattoos.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+#btnmoo {
+	display: inline-block;
+	margin: auto;
+	margin-top: 100px;
+	font-family: 'Open+Sans', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	text-decoration: none;
+	color: green;
+}
+
+#btnmoo:hover {
+	font-style: italic;
+}
+
+#btnfit {
+	display: block;
+	margin: auto;
+	margin-top: 80px;
+	color: grey;
+}
+
+#btnfit:hover {
+	color: red;
+}
+
+#btncat {
+	display: block;
+	margin: auto;
+	margin-top: 80px;
+}
+
+#btncat:hover{
+	background-image: url(fire.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#cat {
+	max-width: 150px;
+}
+
+#cat:hover{
+	opacity: 0;
+}
+
+#btnmolly {
+	display: block;
+	margin: auto;
+	margin-top: 80px;
+	color: brown;
+	width: 100px;
+	padding: 16px 8px;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+#btnmolly:hover {
+	color: white;
+	background-color: green;
+}
+
+#btnstj {
+	display: block;
+	margin: auto;
+	margin-top: 80px;
+}
+
+#kid {
+	max-width: 150px;
+	border-radius: 50%;
+}
+
+#kid:hover {
+	filter: hue-rotate(180deg);
+}
+
+#btnny {
+	display: block;
+	margin: auto;
+	margin-top: 80px;
+}
+
+#ny {
+	max-width: 100px;
+	filter: grayscale(100);
+	border-radius: 50%;
+}
+
+#ny:hover {
+	filter: none;
+}
+
+.fa-plane {
+	display: block;
+	margin: auto;
+	margin-top: 80px;
+	color: lightblue;
+	width: 100px;
+	height: 100px;
+}
+
+.fa-plane:hover {
+	-webkit-transform: rotate(60deg); /* Safari */
+	transform: rotate(60deg);
+	color: skyblue;
+}
+
+#npr {
+	display: block;
+	margin: auto;
+	margin-top: 100px;
+	max-width: 150px;
+}
+
+#npr:hover{
+	filter: grayscale(100);
+}
+
+#btnon {
+	display: inline-block;
+	margin: auto;
+	margin-top: 100px;
+	font-family: 'Lobster', sans-serif;
+	font-size: 40px;
+	color: navy;
+	text-decoration: none;
+}
+
+#btnon:hover{
+	background-color: navy;
+	color: white;
+}
+
+#btninsta {
+	display: block;
+	margin: auto;
+	margin-top: 110px;
+	color: grey;
+	background-image: none;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 50px;
+	width: 90px;
+}
+
+#btninsta:hover {
+	color: white;
+	background: #f43030; /* Old browsers */
+	background: -moz-linear-gradient(top, #f43030 0%, #fc6432 27%, #fcdd2f 51%, #b327f9 75%, #701ec9 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f43030 0%,#fc6432 27%,#fcdd2f 51%,#b327f9 75%,#701ec9 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f43030 0%,#fc6432 27%,#fcdd2f 51%,#b327f9 75%,#701ec9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f43030', endColorstr='#701ec9',GradientType=0 ); /* IE6-9 */
+}
