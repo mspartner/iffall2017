@@ -1,0 +1,66 @@
+html, body {
+   height: 100%;
+   padding: 0;
+   margin: 0;
+}
+
+body {
+  font-family: 'VT323', monospace;
+  font-size: 140pt;
+  color: red;
+  background-image: url(elliot.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.text {
+  margin: auto;
+  display: inline-block;
+  padding-top: 18%;
+}
+
+a {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2560px) {
+  body {
+    font-size: 250pt;
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 2000px) {
+  body {
+    font-size: 180pt;
+  }
+}
+@media screen and (min-width: 768px) and (max-width:1024px) {
+  body {
+    font-size: 120pt;
+    background-size: 1100px;
+    background-position: right;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  body {
+    font-size: 80pt;
+    background-size: 1200px;
+    background-position: right;
+    padding-top: 30%;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 425px) {
+  body {
+    background-position: 80% center;
+    font-size: 70pt;
+    line-height: 60pt;
+    padding-top: 85%;
+  }
+}

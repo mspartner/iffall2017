@@ -1,0 +1,82 @@
+html, body {
+   height: 100%;
+   padding: 0;
+   margin: 0;
+}
+
+body {
+  font-family: 'VT323', monospace;
+  font-size: 140pt;
+  color: red;
+  background-image: url(tyrell.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  text-align: center;
+}
+
+.text {
+  margin: auto;
+  display: inline-block;
+  padding-top: 18%;
+}
+
+a {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2560px) {
+ body {
+   font-size: 250pt;
+ }
+ .text {
+   padding-top: 18%;
+   position: absolute;
+ }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .text {
+    padding-top: 18%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .text {
+    font-size: 120pt;
+    padding-top: 40%;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 768px) {
+  .text {
+    font-size: 110pt;
+    width: 300px;
+    text-align: center;
+    line-height: 90pt;
+    padding-top: 40%;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 550px) {
+  .text {
+    font-size: 95pt;
+    margin-right: 2%;
+    padding-top: 50%;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 400px) {
+  body {
+    background-position: 30% center;
+  }
+  .text {
+    font-size: 80pt;
+    line-height: 60pt;
+    margin-top: 50%;
+  }
+}

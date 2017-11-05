@@ -1,0 +1,78 @@
+html, body {
+   height: 100%;
+   padding: 0;
+   margin: 0;
+}
+
+body {
+  font-family: 'VT323', monospace;
+  font-size: 40pt;
+  color: red;
+  background-image: url(qwerty.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.smalltext{
+  font-size: 30pt;
+  display: block;
+  width: 300px;
+  text-align: left;
+  position: relative;
+  left: 10%;
+  margin-top: 7%;
+}
+
+.money {
+  font-size: 100pt;
+  text-align: right;
+  display: inline-block;
+  position: relative;
+  float: right;
+  margin-top: 20%;
+  margin-right: 5%;
+}
+
+a {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2560px) {
+  .smalltext {
+    font-size: 60pt;
+    width: 600px;
+  }
+  .money {
+    font-size: 200pt;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+  .money {
+    font-size: 90pt;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .money {
+    font-size: 60pt;
+    margin-top: 28%;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 425px) {
+  .smalltext {
+    left: 12%;
+    margin-top: 9%;
+  }
+  .money {
+    font-size: 50pt;
+    margin-top: 35%;
+    line-height: 50pt;
+  }
+}
