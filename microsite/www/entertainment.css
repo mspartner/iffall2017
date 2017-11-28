@@ -1,0 +1,220 @@
+#first {
+  background: url(entertainment.jpg) fixed;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 100%;
+  height: 700px;
+  margin-top: -100px;
+  padding-top: 270px;
+}
+
+#label h2{
+  position: absolute;
+  top: 770px;
+  left: 40px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#label h2 a{
+  text-decoration: none;
+  color: white;
+}
+
+#second {
+  width: 100%;
+  height: 702px;
+  background-color: white;
+  position: absolute;
+  overflow-y: scroll;
+}
+
+#second .paragraph {
+  display: block;
+  position: relative;
+  margin: auto;
+  top: 100px;
+  width: 500px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+  color: #282828;
+  line-height: 22px;
+  padding-bottom: 40px;
+}
+
+#second .one{
+  float: left;
+  display: block;
+  width: 300px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  top: 100px;
+  margin-left: -200px;
+}
+
+#second .two {
+  display: block;
+  margin-right: -200px;
+  top: 500px;
+  float: right;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 300px;
+}
+
+#second .three {
+  display: block;
+  margin-left: -200px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  top: 800px;
+  float: left;
+  width: 300px;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-weight: 400;
+  font-size: 150px;
+  letter-spacing: 6px;
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 1s; /* Firefox < 16 */
+      -ms-animation: fadein 1s; /* Internet Explorer */
+       -o-animation: fadein 1s; /* Opera < 12.1 */
+          animation: fadein 1s;
+}
+
+h1 .seoul2 {
+  display: none;
+  font-family: serif;
+  font-weight: bold;
+}
+
+h1:hover .seoul {
+  display: none;
+}
+
+h1:hover .seoul2 {
+  display: inline-block;
+}
+
+.down {
+  color: white;
+  font-size: 50px;
+  font-family: 'Roboto Condensed', sans-serif;
+  position: relative;
+  top: 120px;
+  left: 600px;
+  -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+#menu {
+  position: fixed;
+}
+/* Dropdown Button */
+.navlines {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.nav {
+  position: absolute;
+  display: block;
+  top: 100px;
+  left: 1200px;
+  width: 500px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: -410px;
+    top: 10px;
+    padding: 12px;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.dropdown-content li {
+    float: left;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+}
+
+.dropdown-content li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.nav:hover .dropdown-content {
+    display: block;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+}
