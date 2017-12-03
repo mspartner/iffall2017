@@ -137,9 +137,9 @@ h1:hover .seoul2 {
   color: white;
   font-size: 50px;
   font-family: 'Roboto Condensed', sans-serif;
-  position: relative;
-  top: 120px;
-  left: 600px;
+ position: absolute;
+  bottom: 0%;
+  right: 5%;
   -ms-transform: rotate(90deg); /* IE 9 */
     -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
     transform: rotate(90deg);
