@@ -1,0 +1,66 @@
+.box {
+  display: block;
+  position: relative;
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin-right: 30px;
+}
+
+.word {
+  position: absolute;
+  display: block;
+  opacity: 0.0;
+  text-align: center;
+  z-index: 99;
+  top: 0%;
+  width: 400px;
+  height: 400px;
+  padding-top: 30%;
+  background-color: rgba(255,255,255,0.7);
+  color: #282828;
+}
+
+.head {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.desc {
+  margin-top: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.box:hover .word{
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serf;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 100px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+body {
+  margin-left: 50px;
+  margin-top: 100px;
+}
