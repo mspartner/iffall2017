@@ -195,6 +195,10 @@ body {
   text-shadow: 5px 5px #e3cb37;
 }
 
+a.smn2 {
+    margin-left: -40px;
+}
+
 .smn2:hover {
   color: #2c2a5c;
   text-shadow: 5px 5px #bb008d;
